@@ -6,7 +6,8 @@ self.addEventListener('install', (event) => {
         '/index.html',
         '/index.tsx',
         '/index.css',
-        '/manifest.json'
+        '/manifest.json',
+        'https://cdn-icons-png.flaticon.com/512/2065/2065224.png'
       ]);
     })
   );

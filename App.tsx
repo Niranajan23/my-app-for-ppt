@@ -308,11 +308,11 @@ const App: React.FC = () => {
               {installPrompt && (
                 <button 
                     onClick={handleInstallClick}
-                    className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white text-xs font-bold transition-all shadow-md"
+                    className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-bold transition-all shadow-md animate-pulse"
                     title="Install as App"
                 >
                     <Smartphone className="w-3.5 h-3.5" />
-                    <span className="hidden sm:inline">Install App</span>
+                    <span>Install App</span>
                 </button>
               )}
 

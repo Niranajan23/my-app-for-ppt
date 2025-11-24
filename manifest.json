@@ -1,6 +1,7 @@
 {
   "short_name": "InfoGenius",
   "name": "InfoGenius Vision",
+  "description": "Visual Knowledge Engine fueled by Gemini",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/2065/2065224.png",
@@ -15,6 +16,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#0f172a",
   "background_color": "#0f172a"
 }
